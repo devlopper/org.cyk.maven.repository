@@ -18,7 +18,7 @@
 	
 	<properties>
 		<!-- Atlantis -->
-		<ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>1.0.0-SNAPSHOT</ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>
+		<ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>1.0.0</ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>
 	</properties>
 	
 	<dependencies>

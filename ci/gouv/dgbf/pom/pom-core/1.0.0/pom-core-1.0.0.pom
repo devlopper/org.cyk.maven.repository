@@ -41,10 +41,12 @@
 		
 		<!-- Test -->
 		<org.junit.jupiter.junit-jupiter-engine.version>5.8.1</org.junit.jupiter.junit-jupiter-engine.version>
+		
+		<!-- Deployment -->
+		<dgbf.repository.url>file:///E:/repository/source/git/org/cyk/maven/repository/org.cyk.maven.repository</dgbf.repository.url>
 	</properties>
 	
 	<dependencies>
-		
 		<dependency>
 		    <groupId>org.projectlombok</groupId>
 		    <artifactId>lombok</artifactId>

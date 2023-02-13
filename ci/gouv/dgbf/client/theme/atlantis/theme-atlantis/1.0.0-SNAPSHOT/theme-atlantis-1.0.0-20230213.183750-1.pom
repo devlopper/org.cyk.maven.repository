@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-core-jakarta</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.client.theme.atlantis</groupId>
+	<artifactId>theme-atlantis</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
+	<name>Theme à embarquer dans les clients basés sur Primefaces</name>
+	<url>https://siib.dgbf.ci</url>
+	
+	<properties>
+		<!-- Primefaces utility-->
+		<ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version>1.0.0</ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version>
+		<!-- Atlantis -->
+		<org.primefaces.themes.primefaces.version>4.1.0</org.primefaces.themes.primefaces.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.client.utility.primefaces</groupId>
+			<artifactId>utility-primefaces</artifactId>
+			<version>${ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.primefaces.themes</groupId>
+  			<artifactId>atlantis</artifactId>
+  			<version>${org.primefaces.themes.primefaces.version}</version>
+  			<classifier>jakarta</classifier>
+		</dependency>
+	</dependencies>
+</project>

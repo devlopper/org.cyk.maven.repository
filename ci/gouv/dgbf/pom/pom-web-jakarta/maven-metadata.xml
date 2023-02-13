@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>ci.gouv.dgbf.pom</groupId>
-  <artifactId>pom-core</artifactId>
+  <artifactId>pom-web-jakarta</artifactId>
   <versioning>
     <release>1.0.0</release>
     <versions>
       <version>1.0.0</version>
     </versions>
-    <lastUpdated>20230213152251</lastUpdated>
+    <lastUpdated>20230213152255</lastUpdated>
   </versioning>
 </metadata>

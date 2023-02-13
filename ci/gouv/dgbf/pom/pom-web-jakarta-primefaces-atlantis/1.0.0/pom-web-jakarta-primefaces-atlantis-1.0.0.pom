@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-web-jakarta-primefaces</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<artifactId>pom-web-jakarta-primefaces-atlantis</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom web basé sur jakarta utilisant primefaces avec le theme atlantis</name>
+	<url>https://siib.dgbf.ci</url>
+	
+	<properties>
+		<!-- Atlantis -->
+		<ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>1.0.0</ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.client.theme.atlantis</groupId>
+			<artifactId>theme-atlantis</artifactId>
+			<version>${ci.gouv.dgbf.client.theme.atlantis.theme-atlantis.version}</version>
+		</dependency>
+	</dependencies>
+</project>

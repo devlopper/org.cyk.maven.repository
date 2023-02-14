@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.client.theme.atlantis</groupId>
   <artifactId>theme-atlantis</artifactId>
   <versioning>
-    <lastUpdated>20230214073532</lastUpdated>
+    <lastUpdated>20230214090753</lastUpdated>
     <snapshot>
-      <timestamp>20230214.073532</timestamp>
-      <buildNumber>10</buildNumber>
+      <timestamp>20230214.090753</timestamp>
+      <buildNumber>11</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230214.073532-10</value>
-        <updated>20230214073532</updated>
+        <value>1.0.0-20230214.090753-11</value>
+        <updated>20230214090753</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230214.073532-10</value>
-        <updated>20230214073532</updated>
+        <value>1.0.0-20230214.090753-11</value>
+        <updated>20230214090753</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

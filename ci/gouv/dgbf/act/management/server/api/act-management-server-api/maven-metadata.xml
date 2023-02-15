@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.act.management.server.api</groupId>
+  <artifactId>act-management-server-api</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230215143000</lastUpdated>
+  </versioning>
+</metadata>

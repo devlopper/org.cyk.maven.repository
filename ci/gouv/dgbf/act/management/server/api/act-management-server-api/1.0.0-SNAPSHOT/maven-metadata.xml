@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.act.management.server.api</groupId>
   <artifactId>act-management-server-api</artifactId>
   <versioning>
-    <lastUpdated>20230215143000</lastUpdated>
+    <lastUpdated>20230222175518</lastUpdated>
     <snapshot>
-      <timestamp>20230215.143000</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20230222.175518</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230215.143000-1</value>
-        <updated>20230215143000</updated>
+        <value>1.0.0-20230222.175518-2</value>
+        <updated>20230222175518</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230215.143000-1</value>
-        <updated>20230215143000</updated>
+        <value>1.0.0-20230222.175518-2</value>
+        <updated>20230222175518</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

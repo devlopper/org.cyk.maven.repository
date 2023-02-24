@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri May 29 18:08:43 GMT 2020
+https\://repo.maven.apache.org/maven2/.lastUpdated=1574252754140
+https\://rawgit.com/devlopper/artifact.maven/master/.lastUpdated=1574252753820
+https\://rawgit.com/devlopper/artifact.maven/master/.error=
+https\://repo.repsy.io/mvn/kycdev/default/.error=Could not transfer artifact org.primefaces.themes\:atlantis\:jar\:javadoc\:2.0.0 from/to cyk.repo.repsy.io (https\://repo.repsy.io/mvn/kycdev/default)\: No route to host\: connect
+https\://repo.maven.apache.org/maven2/.error=
+2f6a213525516acb62b012992c2f62b8c70d2a1d@default-cyk.repo.repsy.io-https\://repo.repsy.io/mvn/kycdev/default/.lastUpdated=1590775723616

@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.logging.server.api</groupId>
   <artifactId>logging-server-api</artifactId>
   <versioning>
-    <lastUpdated>20230306121429</lastUpdated>
+    <lastUpdated>20230306160920</lastUpdated>
     <snapshot>
-      <timestamp>20230306.121429</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20230306.160920</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230306.121429-1</value>
-        <updated>20230306121429</updated>
+        <value>1.0.0-20230306.160920-2</value>
+        <updated>20230306160920</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230306.121429-1</value>
-        <updated>20230306121429</updated>
+        <value>1.0.0-20230306.160920-2</value>
+        <updated>20230306160920</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

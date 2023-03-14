@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.extension.server</groupId>
+  <artifactId>environment-extension</artifactId>
+  <versioning>
+    <lastUpdated>20230314154712</lastUpdated>
+    <snapshot>
+      <timestamp>20230314.154712</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230314.154712-2</value>
+        <updated>20230314154712</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230314.154712-2</value>
+        <updated>20230314154712</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>ci.gouv.dgbf.extension.server</groupId>
+	<artifactId>server-impl-extension</artifactId>
+	
+	<packaging>jar</packaging>
+	<name>Server implementation extension based on jakarta</name>
+	
+	<properties>
+		<ci.gouv.dgbf.extension.server.server-api-extension.version>1.0.0-SNAPSHOT</ci.gouv.dgbf.extension.server.server-api-extension.version>
+		<jakarta.ws.rs.jakarta.ws.rs-api.version>3.1.0</jakarta.ws.rs.jakarta.ws.rs-api.version>
+		<org.jboss.resteasy.version>6.2.0.Final</org.jboss.resteasy.version>
+		<org.jboss.resteasy.resteasy-client.version>${org.jboss.resteasy.version}</org.jboss.resteasy.resteasy-client.version>
+		<org.jboss.resteasy.resteasy-undertow-cdi.version>${org.jboss.resteasy.version}</org.jboss.resteasy.resteasy-undertow-cdi.version>
+		<org.jboss.logmanager.jboss-logmanager.version>2.1.18.Final</org.jboss.logmanager.jboss-logmanager.version>
+		
+		<version.org.jboss.logmanager>2.1.18.Final</version.org.jboss.logmanager>
+        <version.org.jboss.resteasy>6.2.0.Final</version.org.jboss.resteasy>
+        <version.jakarta.ws.rs.api>3.1.0</version.jakarta.ws.rs.api>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.server</groupId>
+			<artifactId>server-api-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.server.server-api-extension.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.server</groupId>
+			<artifactId>environment-extension</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- Test -->
+		
+		<dependency>
+            <groupId>jakarta.ws.rs</groupId>
+            <artifactId>jakarta.ws.rs-api</artifactId>
+            <version>${jakarta.ws.rs.jakarta.ws.rs-api.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-client</artifactId>
+            <version>${org.jboss.resteasy.resteasy-client.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+         <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-undertow-cdi</artifactId>
+            <version>${org.jboss.resteasy.resteasy-undertow-cdi.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+		<dependency>
+            <groupId>org.jboss.logmanager</groupId>
+            <artifactId>jboss-logmanager</artifactId>
+            <version>${org.jboss.logmanager.jboss-logmanager.version}</version>
+            <scope>test</scope>
+        </dependency>
+	</dependencies>
+</project>

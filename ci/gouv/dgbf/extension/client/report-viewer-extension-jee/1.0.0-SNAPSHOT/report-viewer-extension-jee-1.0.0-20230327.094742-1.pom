@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jee</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>ci.gouv.dgbf.extension.client</groupId>
+	<artifactId>report-viewer-extension-jee</artifactId>
+	<packaging>jar</packaging>
+	<name>Report viewer extension based on jakarta</name>
+	<properties>
+		<org.eclipse.microprofile.config.microprofile-config-api.version>3.0.2</org.eclipse.microprofile.config.microprofile-config-api.version>	
+		<org.omnifaces.omnifaces.version>3.3</org.omnifaces.omnifaces.version>
+		<org.jboss.resteasy.version>6.2.0.Final</org.jboss.resteasy.version>
+		<org.jboss.resteasy.resteasy-client.version>${org.jboss.resteasy.version}</org.jboss.resteasy.resteasy-client.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>environment-extension-jee</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+			
+		<dependency>
+		    <groupId>org.eclipse.microprofile.config</groupId>
+		    <artifactId>microprofile-config-api</artifactId>
+		    <version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.primefaces</groupId>
+		    <artifactId>primefaces</artifactId>
+		    <version>7.0</version>
+		    <scope>provided</scope>
+		</dependency>
+			
+		<dependency>
+			<groupId>org.omnifaces</groupId>
+			<artifactId>omnifaces</artifactId>
+			<version>${org.omnifaces.omnifaces.version}</version>
+		</dependency>
+		
+		<!-- Test -->		
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension-jee</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

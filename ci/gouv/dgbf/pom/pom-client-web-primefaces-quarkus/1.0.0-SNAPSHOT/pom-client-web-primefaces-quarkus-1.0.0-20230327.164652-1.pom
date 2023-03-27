@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-client-web-quarkus</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-client-web-primefaces-quarkus</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom client web primefaces basé sur Quarkus</name>
+	
+	<properties>
+		<org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version>4.0.0</org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version>
+		<io.quarkiverse.omnifaces.quarkus-omnifaces.version>4.1.1</io.quarkiverse.omnifaces.quarkus-omnifaces.version>
+		<primefaces.version>3.12.0</primefaces.version>
+		<io.quarkiverse.primefaces.quarkus-primefaces.version>${primefaces.version}</io.quarkiverse.primefaces.quarkus-primefaces.version>
+		<io.quarkiverse.primefaces.quarkus-primefaces-extensions.version>${primefaces.version}</io.quarkiverse.primefaces.quarkus-primefaces-extensions.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+            <groupId>org.apache.myfaces.core.extensions.quarkus</groupId>
+            <artifactId>myfaces-quarkus</artifactId>
+            <version>${org.apache.myfaces.core.extensions.quarkus.myfaces-quarkus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.omnifaces</groupId>
+            <artifactId>quarkus-omnifaces</artifactId>
+            <version>${io.quarkiverse.omnifaces.quarkus-omnifaces.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.primefaces</groupId>
+            <artifactId>quarkus-primefaces</artifactId>
+            <version>${io.quarkiverse.primefaces.quarkus-primefaces.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.primefaces</groupId>
+            <artifactId>quarkus-primefaces-extensions</artifactId>
+            <version>${io.quarkiverse.primefaces.quarkus-primefaces-extensions.version}</version>
+        </dependency>
+	</dependencies>
+</project>

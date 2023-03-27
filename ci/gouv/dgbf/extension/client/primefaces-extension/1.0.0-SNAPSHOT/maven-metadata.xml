@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.extension.client</groupId>
+  <artifactId>primefaces-extension</artifactId>
+  <versioning>
+    <lastUpdated>20230327164752</lastUpdated>
+    <snapshot>
+      <timestamp>20230327.164752</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230327.164752-1</value>
+        <updated>20230327164752</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230327.164752-1</value>
+        <updated>20230327164752</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>

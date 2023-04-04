@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.extension.client</groupId>
+  <artifactId>report-servlet-extension-jee</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230404151648</lastUpdated>
+  </versioning>
+</metadata>

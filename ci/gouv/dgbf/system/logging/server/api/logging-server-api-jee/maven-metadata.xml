@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.system.logging.server.api</groupId>
+  <artifactId>logging-server-api-jee</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230406162809</lastUpdated>
+  </versioning>
+</metadata>

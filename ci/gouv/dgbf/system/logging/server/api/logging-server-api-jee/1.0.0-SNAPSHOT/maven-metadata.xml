@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.system.logging.server.api</groupId>
+  <artifactId>logging-server-api-jee</artifactId>
+  <versioning>
+    <lastUpdated>20230406162809</lastUpdated>
+    <snapshot>
+      <timestamp>20230406.162809</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230406.162809-1</value>
+        <updated>20230406162809</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230406.162809-1</value>
+        <updated>20230406162809</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>

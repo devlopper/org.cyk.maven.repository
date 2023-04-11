@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.laboratory.server.api</groupId>
+  <artifactId>laboratory-server-api</artifactId>
+  <versioning>
+    <lastUpdated>20230411091151</lastUpdated>
+    <snapshot>
+      <timestamp>20230411.091151</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230411.091151-1</value>
+        <updated>20230411091151</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230411.091151-1</value>
+        <updated>20230411091151</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>

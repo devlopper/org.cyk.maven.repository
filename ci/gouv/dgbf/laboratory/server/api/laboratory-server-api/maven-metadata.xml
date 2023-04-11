@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>ci.gouv.dgbf.pom</groupId>
-  <artifactId>pom-core-jee</artifactId>
+  <groupId>ci.gouv.dgbf.laboratory.server.api</groupId>
+  <artifactId>laboratory-server-api</artifactId>
   <versioning>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230411091125</lastUpdated>
+    <lastUpdated>20230411091151</lastUpdated>
   </versioning>
 </metadata>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>ci.gouv.dgbf.extension.client</groupId>
-  <artifactId>primefaces-extension</artifactId>
+  <artifactId>primefaces-theme-extension</artifactId>
   <versioning>
-    <lastUpdated>20230414132727</lastUpdated>
+    <lastUpdated>20230414132758</lastUpdated>
     <snapshot>
-      <timestamp>20230414.132727</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20230414.132758</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230414.132727-4</value>
-        <updated>20230414132727</updated>
+        <value>1.0.0-20230414.132758-1</value>
+        <updated>20230414132758</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230414.132727-4</value>
-        <updated>20230414132727</updated>
+        <value>1.0.0-20230414.132758-1</value>
+        <updated>20230414132758</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

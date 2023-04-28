@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>ci.gouv.dgbf.extension</groupId>
+	<artifactId>logger-extension</artifactId>
+	<packaging>jar</packaging>
+	<name>Logger extension based on jakarta</name>
+	
+	<properties>
+		<org.eclipse.microprofile.config.microprofile-config-api.version>3.0.2</org.eclipse.microprofile.config.microprofile-config-api.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		    <groupId>org.eclipse.microprofile.config</groupId>
+		    <artifactId>microprofile-config-api</artifactId>
+		    <version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+			
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>environment-extension</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.system.logging.server.api</groupId>
+			<artifactId>logging-server-api</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.microprofile.rest.client</groupId>
+		    <artifactId>microprofile-rest-client-api</artifactId>
+		    <version>3.0.1</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<!-- Test -->
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>ignore</checksumPolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+</project>

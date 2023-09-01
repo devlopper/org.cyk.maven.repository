@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.payslip.server.api</groupId>
   <artifactId>payslip-server-api</artifactId>
   <versioning>
-    <lastUpdated>20230901181059</lastUpdated>
+    <lastUpdated>20230901183543</lastUpdated>
     <snapshot>
-      <timestamp>20230901.181059</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20230901.183543</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230901.181059-1</value>
-        <updated>20230901181059</updated>
+        <value>1.0.0-20230901.183543-2</value>
+        <updated>20230901183543</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230901.181059-1</value>
-        <updated>20230901181059</updated>
+        <value>1.0.0-20230901.183543-2</value>
+        <updated>20230901183543</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

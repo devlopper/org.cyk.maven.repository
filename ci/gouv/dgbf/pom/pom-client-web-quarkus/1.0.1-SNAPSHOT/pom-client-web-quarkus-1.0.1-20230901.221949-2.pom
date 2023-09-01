@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-core-quarkus</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-client-web-quarkus</artifactId>
+	<packaging>pom</packaging>
+	<name>Pom client web basé sur Quarkus</name>
+	
+	<scm>
+		<url>http://10.3.4.18:3001/christian/pom-client-web-quarkus.git</url>
+		<connection>scm:git:http://10.3.4.18:3001/christian/pom-client-web-quarkus.git</connection>
+		<developerConnection>scm:git:http://10.3.4.18:3001/christian/pom-client-web-quarkus.git</developerConnection>
+		<tag>${project.version}</tag>
+	</scm>
+	
+	<properties>
+		<io.quarkiverse.primefaces.quarkus-primefaces.version>3.13.3</io.quarkiverse.primefaces.quarkus-primefaces.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-rest-client-reactive-jsonb</artifactId>
+        </dependency>
+        
+		<dependency>
+			<groupId>io.quarkiverse.primefaces</groupId>
+			<artifactId>quarkus-primefaces</artifactId>
+			<version>${io.quarkiverse.primefaces.quarkus-primefaces.version}</version>
+		</dependency>
+	</dependencies>
+</project>

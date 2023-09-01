@@ -3,9 +3,12 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-client-web-quarkus</artifactId>
   <versioning>
+    <release>1.0.0</release>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230901174224</lastUpdated>
+    <lastUpdated>20230901221949</lastUpdated>
   </versioning>
 </metadata>

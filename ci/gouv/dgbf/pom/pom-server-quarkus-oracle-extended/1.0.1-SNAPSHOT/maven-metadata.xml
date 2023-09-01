@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.pom</groupId>
+  <artifactId>pom-server-quarkus-oracle-extended</artifactId>
+  <versioning>
+    <lastUpdated>20230901174241</lastUpdated>
+    <snapshot>
+      <timestamp>20230901.174241</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.1-20230901.174241-1</value>
+        <updated>20230901174241</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.1-SNAPSHOT</version>
+</metadata>

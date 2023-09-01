@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.extension</groupId>
+	<artifactId>test-extension</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	
+	<name>Test extension based on jakarta</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/test-extension.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/test-extension.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/test-extension.git</developerConnection>
+        <tag>1.0.0</tag>
+    </scm>
+	
+	<properties>
+		<org.junit.jupiter.junit-jupiter-api.version>5.9.3</org.junit.jupiter.junit-jupiter-api.version>
+		<org.eclipse.microprofile.config.microprofile-config-api.version>3.0.2</org.eclipse.microprofile.config.microprofile-config-api.version>
+		<org.mockito.version>5.2.0</org.mockito.version>
+		<org.mockito.mockito-core.version>${org.mockito.version}</org.mockito.mockito-core.version>
+		<com.google.code.gson.gson.version>2.10.1</com.google.code.gson.gson.version>
+		<io.rest-assured.rest-assured.version>5.3.0</io.rest-assured.rest-assured.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>${org.junit.jupiter.junit-jupiter-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.microprofile.config</groupId>
+			<artifactId>microprofile-config-api</artifactId>
+			<version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- This is used to mock object -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>${org.mockito.mockito-core.version}</version>
+		</dependency>
+		<!-- This is used to build json -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${com.google.code.gson.gson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${io.rest-assured.rest-assured.version}</version>
+		</dependency>
+	</dependencies>
+</project>

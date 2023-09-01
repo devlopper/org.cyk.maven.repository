@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.extension</groupId>
+  <artifactId>configuration-smallrye-extension</artifactId>
+  <versioning>
+    <release>1.0.0</release>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230901174319</lastUpdated>
+  </versioning>
+</metadata>

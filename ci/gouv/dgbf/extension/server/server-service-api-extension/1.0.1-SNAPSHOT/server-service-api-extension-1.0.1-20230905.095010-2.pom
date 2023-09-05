@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.extension.server</groupId>
+	<artifactId>server-service-api-extension</artifactId>
+	<packaging>jar</packaging>
+	
+	<name>Server service api extension based on jakarta</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/server-service-api-extension.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/server-service-api-extension.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/server-service-api-extension.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<properties>
+		<ci.gouv.dgbf.extension.version>1.0.1-SNAPSHOT</ci.gouv.dgbf.extension.version>	
+		<ci.gouv.dgbf.extension.test-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.test-extension.version>
+		<ci.gouv.dgbf.extension.environment-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.environment-extension.version>
+		<org.eclipse.microprofile.rest.client.microprofile-rest-client-api.version>3.0.1</org.eclipse.microprofile.rest.client.microprofile-rest-client-api.version>
+		<org.eclipse.microprofile.openapi.microprofile-openapi-api.version>3.1</org.eclipse.microprofile.openapi.microprofile-openapi-api.version>
+		<org.jboss.resteasy.resteasy-multipart-provider.version>6.2.4.Final</org.jboss.resteasy.resteasy-multipart-provider.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>environment-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.environment-extension.version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.microprofile.config</groupId>
+		    <artifactId>microprofile-config-api</artifactId>
+		    <version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.microprofile.rest.client</groupId>
+		    <artifactId>microprofile-rest-client-api</artifactId>
+		    <version>${org.eclipse.microprofile.rest.client.microprofile-rest-client-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.microprofile.openapi</groupId>
+		    <artifactId>microprofile-openapi-api</artifactId>
+		    <version>${org.eclipse.microprofile.openapi.microprofile-openapi-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-multipart-provider</artifactId>
+		    <version>${org.jboss.resteasy.resteasy-multipart-provider.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<!-- Test -->
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.test-extension.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

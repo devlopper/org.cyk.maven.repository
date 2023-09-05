@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-server-quarkus-oracle</artifactId>
+		<version>1.0.1</version>
+	</parent>
+	
+	<artifactId>pom-server-quarkus-oracle-extended</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.1</version>
+	
+	<name>Pom server basé sur Quarkus avec pour persistence oracle et des extensions supplémentaires</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/pom-server-quarkus-oracle-extended.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus-oracle-extended.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus-oracle-extended.git</developerConnection>
+        <tag>1.0.1</tag>
+    </scm>
+		
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.system.logging.server</groupId>
+			<artifactId>logging-server-api</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-rest-client-reactive-jsonb</artifactId>
+		</dependency>
+	</dependencies>
+	
+</project>

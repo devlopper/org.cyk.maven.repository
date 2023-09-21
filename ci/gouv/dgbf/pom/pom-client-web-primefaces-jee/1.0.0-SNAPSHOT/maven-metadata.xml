@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-client-web-primefaces-jee</artifactId>
   <versioning>
-    <lastUpdated>20230911113518</lastUpdated>
+    <lastUpdated>20230921114957</lastUpdated>
     <snapshot>
-      <timestamp>20230911.113518</timestamp>
-      <buildNumber>8</buildNumber>
+      <timestamp>20230921.114957</timestamp>
+      <buildNumber>9</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230911.113518-8</value>
-        <updated>20230911113518</updated>
+        <value>1.0.0-20230921.114957-9</value>
+        <updated>20230921114957</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

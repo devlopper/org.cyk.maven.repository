@@ -3,9 +3,11 @@
   <groupId>ci.gouv.dgbf.extension</groupId>
   <artifactId>report-provider-extension</artifactId>
   <versioning>
+    <release>1.0.0</release>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20230428123749</lastUpdated>
+    <lastUpdated>20230921122644</lastUpdated>
   </versioning>
 </metadata>

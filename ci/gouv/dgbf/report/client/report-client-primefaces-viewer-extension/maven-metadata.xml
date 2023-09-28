@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.report.client</groupId>
+  <artifactId>report-client-primefaces-viewer-extension</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230928154833</lastUpdated>
+  </versioning>
+</metadata>

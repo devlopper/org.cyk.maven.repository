@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-core-quarkus</artifactId>
+		<version>1.0.2-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-server-quarkus</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom server basé sur Quarkus</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/pom-server-quarkus.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+    
+    <properties>
+		<ci.gouv.dgbf.version>1.0.2-SNAPSHOT</ci.gouv.dgbf.version>
+		<ci.gouv.dgbf.extension.server.server-service-impl-extension.version>${ci.gouv.dgbf.version}</ci.gouv.dgbf.extension.server.server-service-impl-extension.version>
+		<ci.gouv.dgbf.extension.test-extension.version>${ci.gouv.dgbf.version}</ci.gouv.dgbf.extension.test-extension.version>
+		
+		<org.projectlombok.lombok-mapstruct-binding.version>0.2.0</org.projectlombok.lombok-mapstruct-binding.version>	
+		<org.mapstruct.mapstruct.version>1.5.5.Final</org.mapstruct.mapstruct.version>
+		<org.mapstruct.mapstruct-processor.version>${org.mapstruct.mapstruct.version}</org.mapstruct.mapstruct-processor.version>
+	</properties>
+    
+    <build>
+		<plugins>
+			<!-- Compiler -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+	                <annotationProcessorPaths>
+						<path>
+			                <groupId>org.projectlombok</groupId>
+			                <artifactId>lombok</artifactId>
+			                <version>${org.projectlombok.lombok.version}</version>
+			            </path>
+			            <!-- This is needed when using Lombok 1.18.16 and above -->
+			            <path>
+			                <groupId>org.projectlombok</groupId>
+			                <artifactId>lombok-mapstruct-binding</artifactId>
+			                <version>${org.projectlombok.lombok-mapstruct-binding.version}</version>
+			            </path>
+			            <!-- Mapstruct should follow the lombok path(s) -->
+	                    <path>
+	                        <groupId>org.mapstruct</groupId>
+	                        <artifactId>mapstruct-processor</artifactId>
+	                        <version>${org.mapstruct.mapstruct-processor.version}</version>
+	                    </path>
+	                    <!-- other annotation processors -->
+	                </annotationProcessorPaths>
+	                <compilerArgs>
+						<compilerArg>
+							-Amapstruct.defaultComponentModel=cdi
+						</compilerArg>
+					</compilerArgs>
+	            </configuration>
+			</plugin>
+		</plugins>
+	</build>
+    
+	<dependencies>
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-resteasy-reactive-jaxb</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-resteasy-reactive-jsonb</artifactId>
+        </dependency>
+        	
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-smallrye-openapi</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.quarkus</groupId>
+		    <artifactId>quarkus-hibernate-validator</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-smallrye-fault-tolerance</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.jboss.resteasy</groupId>
+		    <artifactId>resteasy-multipart-provider</artifactId>
+		    <scope>provided</scope>
+		</dependency>
+				
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.server</groupId>
+			<artifactId>server-service-impl-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.server.server-service-impl-extension.version}</version>
+		</dependency>
+		
+		<dependency>
+	        <groupId>org.mapstruct</groupId>
+	        <artifactId>mapstruct</artifactId>
+	        <version>${org.mapstruct.mapstruct.version}</version>
+	    </dependency>
+		
+		<!-- Test -->
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.test-extension.version}</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

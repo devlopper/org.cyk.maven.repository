@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-core</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-core-jee</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom noyau basé sur jee</name>
+	
+	<properties>
+		<!-- Java -->
+		<java.standard.edition.version>11</java.standard.edition.version>
+		
+		<!-- JEE -->
+		<javax.javaee-api.version>8.0</javax.javaee-api.version>
+		<org.jacoco.jacoco-maven-plugin.version>0.8.8</org.jacoco.jacoco-maven-plugin.version>
+		
+		<!-- Test -->
+		<org.junit.jupiter.junit-jupiter-engine.version>5.8.1</org.junit.jupiter.junit-jupiter-engine.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${javax.javaee-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!-- Test -->
+		
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter-engine</artifactId>
+		    <version>${org.junit.jupiter.junit-jupiter-engine.version}</version>
+		    <scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>${maven-failsafe-plugin.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${org.jacoco.jacoco-maven-plugin.version}</version>
+			</plugin>
+		</plugins>
+	</reporting>
+	
+	<profiles>
+		<profile>
+			<id>code-coverage-core</id>
+			<activation>
+				<property>
+					<name>code-coverage</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>${org.jacoco.jacoco-maven-plugin.version}</version>
+						<executions>
+							<!-- Prepares the property pointing to the JaCoCo runtime agent which
+                        	is passed as VM argument when Maven the Surefire plugin is executed. -->
+		                    <execution>
+		                        <id>default-prepare-agent</id>
+		                        <goals>
+		                            <goal>prepare-agent</goal>
+		                        </goals>
+		                    </execution>
+		                    
+		                    <!-- Ensures that the code coverage report for unit tests is created
+                        	after unit tests have been run. -->
+		                    <execution>
+		                        <id>default-report</id>
+		                        <phase>test</phase>
+		                        <goals>
+		                            <goal>report</goal>
+		                        </goals>
+		                    </execution>
+		                    
+							<execution>
+								<id>jacoco-check</id>
+								<goals>
+									<goal>check</goal>
+								</goals>
+								<configuration>
+									<rules>
+										<rule>
+											<element>CLASS</element>
+											<limits>
+												<limit>
+													<counter>LINE</counter>
+													<value>COVEREDRATIO</value>
+													<minimum>1.00</minimum>
+												</limit>
+												<limit>
+							                   		<counter>BRANCH</counter>
+							                   		<value>COVEREDRATIO</value>
+							                   		<minimum>1.00</minimum>
+							                 	</limit>
+											</limits>
+										</rule>
+									</rules>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+			
+			<dependencies>
+				<dependency>
+				    <groupId>org.jacoco</groupId>
+				    <artifactId>jacoco-maven-plugin</artifactId>
+				    <version>${org.jacoco.jacoco-maven-plugin.version}</version>
+				</dependency>
+			</dependencies>
+		</profile>
+	</profiles>
+</project>

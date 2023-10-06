@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-server-api-jakarta</artifactId>
+		<version>1.0.2-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.system.logging.server</groupId>
+	<artifactId>logging-server-api</artifactId>
+	<packaging>jar</packaging>
+	
+	<name>API du serveur du module de logging</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/logging-server-api.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/logging-server-api.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/logging-server-api.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+</project>

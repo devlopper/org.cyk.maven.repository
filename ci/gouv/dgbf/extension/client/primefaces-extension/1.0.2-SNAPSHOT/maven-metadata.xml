@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension.client</groupId>
   <artifactId>primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20231006135229</lastUpdated>
+    <lastUpdated>20231009164228</lastUpdated>
     <snapshot>
-      <timestamp>20231006.135229</timestamp>
-      <buildNumber>10</buildNumber>
+      <timestamp>20231009.164228</timestamp>
+      <buildNumber>11</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.2-20231006.135229-10</value>
-        <updated>20231006135229</updated>
+        <value>1.0.2-20231009.164228-11</value>
+        <updated>20231009164228</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.2-20231006.135229-10</value>
-        <updated>20231006135229</updated>
+        <value>1.0.2-20231009.164228-11</value>
+        <updated>20231009164228</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

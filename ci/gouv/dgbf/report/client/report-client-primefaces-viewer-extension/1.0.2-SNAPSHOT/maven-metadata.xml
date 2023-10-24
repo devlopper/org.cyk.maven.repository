@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.report.client</groupId>
   <artifactId>report-client-primefaces-viewer-extension</artifactId>
   <versioning>
-    <lastUpdated>20231020112731</lastUpdated>
+    <lastUpdated>20231024183709</lastUpdated>
     <snapshot>
-      <timestamp>20231020.112731</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20231024.183709</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.2-20231020.112731-6</value>
-        <updated>20231020112731</updated>
+        <value>1.0.2-20231024.183709-7</value>
+        <updated>20231024183709</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.2-20231020.112731-6</value>
-        <updated>20231020112731</updated>
+        <value>1.0.2-20231024.183709-7</value>
+        <updated>20231024183709</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

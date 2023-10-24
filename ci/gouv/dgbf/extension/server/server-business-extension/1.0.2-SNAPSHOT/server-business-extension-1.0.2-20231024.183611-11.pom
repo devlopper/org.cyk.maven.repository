@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.2-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.extension.server</groupId>
+	<artifactId>server-business-extension</artifactId>
+	<packaging>jar</packaging>
+	
+	<name>Server business extension based on jakarta</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/server-business-extension.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/server-business-extension.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/server-business-extension.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<properties>
+		<ci.gouv.dgbf.extension.version>1.0.2-SNAPSHOT</ci.gouv.dgbf.extension.version>	
+		<ci.gouv.dgbf.extension.server.server-persistence-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.server.server-persistence-extension.version>
+		<ci.gouv.dgbf.extension.test-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.test-extension.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.server</groupId>
+			<artifactId>server-persistence-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.server.server-persistence-extension.version}</version>
+		</dependency>
+				
+		<!-- Test -->
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.test-extension.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

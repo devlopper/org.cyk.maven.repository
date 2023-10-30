@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.system.identity.server</groupId>
+  <artifactId>identity-server-api</artifactId>
+  <versioning>
+    <lastUpdated>20231030194832</lastUpdated>
+    <snapshot>
+      <timestamp>20231030.194832</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.2-20231030.194832-2</value>
+        <updated>20231030194832</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.2-20231030.194832-2</value>
+        <updated>20231030194832</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.2-SNAPSHOT</version>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.system.form.server</groupId>
+  <artifactId>form-server-api</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240119121836</lastUpdated>
+  </versioning>
+</metadata>

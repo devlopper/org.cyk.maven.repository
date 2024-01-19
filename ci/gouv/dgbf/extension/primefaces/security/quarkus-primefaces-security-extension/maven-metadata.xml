@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.extension.primefaces.security</groupId>
+  <artifactId>quarkus-primefaces-security-extension</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240119121858</lastUpdated>
+  </versioning>
+</metadata>

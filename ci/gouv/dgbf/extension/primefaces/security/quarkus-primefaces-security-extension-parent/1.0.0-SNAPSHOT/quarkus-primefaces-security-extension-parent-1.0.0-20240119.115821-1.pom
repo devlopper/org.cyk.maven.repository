@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-client-web-quarkus-primefaces</artifactId>
+		<version>1.0.3-SNAPSHOT</version>
+	</parent>
+	<groupId>ci.gouv.dgbf.extension.primefaces.security</groupId>
+	<artifactId>quarkus-primefaces-security-extension-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<name>DGBF Security - Parent</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/quarkus-primefaces-security-extension.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/quarkus-primefaces-security-extension.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/quarkus-primefaces-security-extension.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<modules>
+		<module>deployment</module>
+		<module>runtime</module>
+	</modules>
+</project>

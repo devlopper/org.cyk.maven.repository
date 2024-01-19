@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.pom</groupId>
+  <artifactId>pom-core-jakarta</artifactId>
+  <versioning>
+    <lastUpdated>20240119121409</lastUpdated>
+    <snapshot>
+      <timestamp>20240119.121409</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.3-20240119.121409-2</value>
+        <updated>20240119121409</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.3-SNAPSHOT</version>
+</metadata>

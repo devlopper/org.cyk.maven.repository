@@ -3,9 +3,12 @@
   <groupId>ci.gouv.dgbf.system.statistic.server</groupId>
   <artifactId>statistic-server-api</artifactId>
   <versioning>
+    <release>1.0.2</release>
     <versions>
       <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.2</version>
+      <version>1.0.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20231221103101</lastUpdated>
+    <lastUpdated>20240119121805</lastUpdated>
   </versioning>
 </metadata>

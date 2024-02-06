@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension</groupId>
   <artifactId>report-servlet-api-extension</artifactId>
   <versioning>
-    <lastUpdated>20240119121556</lastUpdated>
+    <lastUpdated>20240206114721</lastUpdated>
     <snapshot>
-      <timestamp>20240119.121556</timestamp>
-      <buildNumber>15</buildNumber>
+      <timestamp>20240206.114721</timestamp>
+      <buildNumber>16</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.2-20240119.121556-15</value>
-        <updated>20240119121556</updated>
+        <value>1.0.2-20240206.114721-16</value>
+        <updated>20240206114721</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.2-20240119.121556-15</value>
-        <updated>20240119121556</updated>
+        <value>1.0.2-20240206.114721-16</value>
+        <updated>20240206114721</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

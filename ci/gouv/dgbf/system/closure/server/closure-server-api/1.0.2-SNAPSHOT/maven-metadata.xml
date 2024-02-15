@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.closure.server</groupId>
   <artifactId>closure-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240213111919</lastUpdated>
+    <lastUpdated>20240215170807</lastUpdated>
     <snapshot>
-      <timestamp>20240213.111919</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20240215.170807</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.2-20240213.111919-9</value>
-        <updated>20240213111919</updated>
+        <value>1.0.2-20240215.170807-10</value>
+        <updated>20240215170807</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.2-20240213.111919-9</value>
-        <updated>20240213111919</updated>
+        <value>1.0.2-20240215.170807-10</value>
+        <updated>20240215170807</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

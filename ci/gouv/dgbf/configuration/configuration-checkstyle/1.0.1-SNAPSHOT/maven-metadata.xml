@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.configuration</groupId>
   <artifactId>configuration-checkstyle</artifactId>
   <versioning>
-    <lastUpdated>20240221203237</lastUpdated>
+    <lastUpdated>20240222185029</lastUpdated>
     <snapshot>
-      <timestamp>20240221.203237</timestamp>
-      <buildNumber>25</buildNumber>
+      <timestamp>20240222.185029</timestamp>
+      <buildNumber>26</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.1-20240221.203237-25</value>
-        <updated>20240221203237</updated>
+        <value>1.0.1-20240222.185029-26</value>
+        <updated>20240222185029</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.1-20240221.203237-25</value>
-        <updated>20240221203237</updated>
+        <value>1.0.1-20240222.185029-26</value>
+        <updated>20240222185029</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

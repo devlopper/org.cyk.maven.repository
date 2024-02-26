@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension</groupId>
   <artifactId>configuration-smallrye-extension</artifactId>
   <versioning>
-    <lastUpdated>20240222185157</lastUpdated>
+    <lastUpdated>20240226145436</lastUpdated>
     <snapshot>
-      <timestamp>20240222.185157</timestamp>
-      <buildNumber>8</buildNumber>
+      <timestamp>20240226.145436</timestamp>
+      <buildNumber>9</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.3-20240222.185157-8</value>
-        <updated>20240222185157</updated>
+        <value>1.0.3-20240226.145436-9</value>
+        <updated>20240226145436</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.3-20240222.185157-8</value>
-        <updated>20240222185157</updated>
+        <value>1.0.3-20240226.145436-9</value>
+        <updated>20240226145436</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

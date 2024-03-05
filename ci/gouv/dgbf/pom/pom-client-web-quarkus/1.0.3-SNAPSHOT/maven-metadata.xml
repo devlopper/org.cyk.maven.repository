@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-client-web-quarkus</artifactId>
   <versioning>
-    <lastUpdated>20240226145334</lastUpdated>
+    <lastUpdated>20240305102744</lastUpdated>
     <snapshot>
-      <timestamp>20240226.145334</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20240305.102744</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.3-20240226.145334-9</value>
-        <updated>20240226145334</updated>
+        <value>1.0.3-20240305.102744-10</value>
+        <updated>20240305102744</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

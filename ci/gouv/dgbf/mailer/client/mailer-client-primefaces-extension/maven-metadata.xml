@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.mailer.client</groupId>
+  <artifactId>mailer-client-primefaces-extension</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240326170937</lastUpdated>
+  </versioning>
+</metadata>

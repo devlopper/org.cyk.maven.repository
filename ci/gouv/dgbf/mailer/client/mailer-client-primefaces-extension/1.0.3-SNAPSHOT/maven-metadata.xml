@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.mailer.client</groupId>
+  <artifactId>mailer-client-primefaces-extension</artifactId>
+  <versioning>
+    <lastUpdated>20240326170937</lastUpdated>
+    <snapshot>
+      <timestamp>20240326.170937</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.3-20240326.170937-1</value>
+        <updated>20240326170937</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.3-20240326.170937-1</value>
+        <updated>20240326170937</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.3-SNAPSHOT</version>
+</metadata>

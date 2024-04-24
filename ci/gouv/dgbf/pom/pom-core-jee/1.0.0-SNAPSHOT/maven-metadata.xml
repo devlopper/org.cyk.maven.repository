@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-core-jee</artifactId>
   <versioning>
-    <lastUpdated>20240422135903</lastUpdated>
+    <lastUpdated>20240424092436</lastUpdated>
     <snapshot>
-      <timestamp>20240422.135903</timestamp>
-      <buildNumber>39</buildNumber>
+      <timestamp>20240424.092436</timestamp>
+      <buildNumber>40</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20240422.135903-39</value>
-        <updated>20240422135903</updated>
+        <value>1.0.0-20240424.092436-40</value>
+        <updated>20240424092436</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

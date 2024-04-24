@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-server-quarkus</artifactId>
+		<version>1.0.3-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-server-quarkus-oracle</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom server basé sur Quarkus avec pour persistence oracle</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/pom-server-quarkus-oracle.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus-oracle.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/pom-server-quarkus-oracle.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<dependencies>
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-hibernate-orm</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-jdbc-oracle</artifactId>
+		</dependency>
+				
+		<!-- Test -->
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-jdbc-h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+</project>

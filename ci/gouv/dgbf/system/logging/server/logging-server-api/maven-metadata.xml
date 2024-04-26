@@ -3,14 +3,16 @@
   <groupId>ci.gouv.dgbf.system.logging.server</groupId>
   <artifactId>logging-server-api</artifactId>
   <versioning>
-    <release>1.0.2</release>
+    <release>1.0.3</release>
     <versions>
       <version>1.0.1-SNAPSHOT</version>
       <version>1.0.1</version>
       <version>1.0.2-SNAPSHOT</version>
       <version>1.0.2</version>
       <version>1.0.3-SNAPSHOT</version>
+      <version>1.0.3</version>
+      <version>1.0.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240226145559</lastUpdated>
+    <lastUpdated>20240426144447</lastUpdated>
   </versioning>
 </metadata>

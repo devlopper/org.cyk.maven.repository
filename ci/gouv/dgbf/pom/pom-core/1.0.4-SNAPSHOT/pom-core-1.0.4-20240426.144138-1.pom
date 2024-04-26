@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>ci.gouv.dgbf.pom</groupId>
+	<artifactId>pom-core</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.4-SNAPSHOT</version>
+	
+	<name>Pom noyau</name>
+	<url>https://siib.dgbf.ci</url>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/pom-core.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/pom-core.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/pom-core.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<properties>
+		<!-- Project -->
+		<character.encoding>UTF-8</character.encoding>
+		<project.build.sourceEncoding>${character.encoding}</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>${character.encoding}</project.reporting.outputEncoding>
+		<finalName>${project.build.file.name}</finalName>
+		
+		<!-- Java -->
+		<java.standard.edition.version>17</java.standard.edition.version>
+		
+		<!-- Maven -->
+		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+		<maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+		<maven-war-plugin.version>3.3.1</maven-war-plugin.version>
+		<maven.compiler.release>${java.standard.edition.version}</maven.compiler.release>
+		<maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+		<maven-failsafe-plugin.version>${maven-surefire-plugin.version}</maven-failsafe-plugin.version>
+		<maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+		<maven-source-plugin.version>3.1.0</maven-source-plugin.version>
+		<maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
+		<maven-project-info-reports-plugin.version>3.4.2</maven-project-info-reports-plugin.version>
+		<maven-site-plugin.version>3.12.1</maven-site-plugin.version>
+		<maven-release-plugin.version>3.0.0</maven-release-plugin.version>
+		
+		<maven-checkstyle-plugin.version>3.2.1</maven-checkstyle-plugin.version>
+		<com.puppycrawl.tools.checkstyle.version>10.9.3</com.puppycrawl.tools.checkstyle.version>
+		
+		<org.apache.maven.wagon.wagon-ftp.version>3.5.3</org.apache.maven.wagon.wagon-ftp.version>
+		<org.codehaus.mojo.build-helper-maven-plugin.version>3.3.0</org.codehaus.mojo.build-helper-maven-plugin.version>
+		
+		<!-- Microprofile -->
+		<org.eclipse.microprofile.microprofile.version>3.3</org.eclipse.microprofile.microprofile.version>
+		<org.eclipse.microprofile.config.microprofile-config-api.version>3.0.2</org.eclipse.microprofile.config.microprofile-config-api.version>
+		<org.eclipse.microprofile.rest.client.microprofile-rest-client-api.version>${org.eclipse.microprofile.microprofile.version}</org.eclipse.microprofile.rest.client.microprofile-rest-client-api.version>
+		
+		<org.projectlombok.lombok.version>1.18.26</org.projectlombok.lombok.version>
+		
+		<!-- Deployment -->
+		<dgbf.repository.url>file:///E:/repository/source/git/org/cyk/maven/org.cyk.maven.repository</dgbf.repository.url>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>${org.projectlombok.lombok.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>build-helper-maven-plugin</artifactId>
+			<version>${org.codehaus.mojo.build-helper-maven-plugin.version}</version>
+			<type>maven-plugin</type>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<systemPropertyVariables>
+						<java.util.logging.config.file>src/test/resources/logging.properties</java.util.logging.config.file>
+					</systemPropertyVariables>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven-jar-plugin.version}</version>
+			</plugin>
+			<plugin>
+			    <artifactId>maven-deploy-plugin</artifactId>
+			    <version>${maven-deploy-plugin.version}</version>
+			    <configuration>
+			        <altDeploymentRepository>
+			            dgbf.repository::default::${dgbf.repository.url}
+			        </altDeploymentRepository>
+			    </configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven-source-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven-javadoc-plugin.version}</version>
+			</plugin>
+	        <plugin>
+		        <artifactId>maven-site-plugin</artifactId>
+		        <version>${maven-site-plugin.version}</version>
+		        <configuration>
+		          <locales>fr</locales>
+		        </configuration>
+		    </plugin>
+		    
+		    <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
+                </configuration>
+            </plugin>
+		</plugins>
+		<extensions>
+	    	<extension>
+	        	<groupId>org.apache.maven.wagon</groupId>
+	         	<artifactId>wagon-ftp</artifactId>
+	         	<version>${org.apache.maven.wagon.wagon-ftp.version}</version>
+	      	</extension>
+	  	</extensions>
+	</build>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>${maven-project-info-reports-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven-javadoc-plugin.version}</version>
+				<configuration>
+					<show>public</show>
+					<additionalOptions>-package</additionalOptions>
+				</configuration>
+				<reportSets>
+					<reportSet>
+						<id>default</id>
+						<reports>
+							<report>javadoc</report>
+						</reports>
+					</reportSet>
+					<reportSet>
+						<id>aggregate</id>
+						<reports>
+							<report>aggregate</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+		</plugins>
+	</reporting>
+	
+	<profiles>
+		<!-- Test required -->
+		<!-- Activation based on propertry -->
+		<profile>
+			<id>code-test-required-core</id>
+			<activation>
+				<property>
+					<name>code-test-required</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>${maven-surefire-plugin.version}</version>
+						<configuration>
+							<failIfNoTests>true</failIfNoTests>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>	
+		<!-- Activation based on file existence -->
+		<profile>
+			<id>code-test-required-core-file</id>
+			<activation>
+				<file>
+					<exists>maven/profile/code-test-required</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>${maven-surefire-plugin.version}</version>
+						<configuration>
+							<failIfNoTests>true</failIfNoTests>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>	
+		
+		<!-- Style check -->
+		<!-- Activation based on propertry -->
+		<profile>
+			<id>code-style-core</id>
+			<activation>
+				<property>
+					<name>code-style</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+					    <groupId>org.apache.maven.plugins</groupId>
+					    <artifactId>maven-checkstyle-plugin</artifactId>
+					    <version>${maven-checkstyle-plugin.version}</version>
+					    <dependencies>
+							<dependency>
+							  <groupId>com.puppycrawl.tools</groupId>
+							  <artifactId>checkstyle</artifactId>
+							  <version>${com.puppycrawl.tools.checkstyle.version}</version>
+							</dependency>
+							<dependency>
+								<groupId>ci.gouv.dgbf.configuration</groupId>
+								<artifactId>configuration-checkstyle</artifactId>
+								<version>1.0.0</version>
+							</dependency>
+						</dependencies>
+					    <configuration>
+					        <configLocation>checkstyle.xml</configLocation>
+					        <sourceDirectories>
+							    <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory> 
+							    <sourceDirectory>${project.build.testSourceDirectory}</sourceDirectory> 
+							</sourceDirectories>
+					    </configuration>
+					    <executions>
+					        <execution>
+					            <goals>
+					                <goal>check</goal>
+					            </goals>
+					        </execution>
+					    </executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<!-- Activation based on file existence -->
+		<profile>
+			<id>code-style-core-file</id>
+			<activation>
+				<file>
+					<exists>maven/profile/code-style</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+					    <groupId>org.apache.maven.plugins</groupId>
+					    <artifactId>maven-checkstyle-plugin</artifactId>
+					    <version>${maven-checkstyle-plugin.version}</version>
+					    <dependencies>
+							<dependency>
+							  <groupId>com.puppycrawl.tools</groupId>
+							  <artifactId>checkstyle</artifactId>
+							  <version>${com.puppycrawl.tools.checkstyle.version}</version>
+							</dependency>
+							<dependency>
+								<groupId>ci.gouv.dgbf.configuration</groupId>
+								<artifactId>configuration-checkstyle</artifactId>
+								<version>1.0.0</version>
+							</dependency>
+						</dependencies>
+					    <configuration>
+					        <configLocation>checkstyle.xml</configLocation>
+					        <sourceDirectories>
+							    <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory> 
+							    <sourceDirectory>${project.build.testSourceDirectory}</sourceDirectory> 
+							</sourceDirectories>
+					    </configuration>
+					    <executions>
+					        <execution>
+					            <goals>
+					                <goal>check</goal>
+					            </goals>
+					        </execution>
+					    </executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>code-source</id>
+			<activation>
+				<file>
+					<exists>maven/profile/code-source</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>${maven-source-plugin.version}</version>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		
+		<profile>
+			<id>code-documentation</id>
+			<activation>
+				<file>
+					<exists>maven/profile/code-documentation</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-javadoc-plugin</artifactId>
+						<version>${maven-javadoc-plugin.version}</version>
+						<executions>
+							<execution>
+								<id>attach-javadoc</id>
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>javadoc</goal>
+								</goals>
+								<configuration>
+									<reportOutputDirectory>${project.build.directory}/classes/</reportOutputDirectory>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+			
+		<profile>
+			<id>cyk-site</id>
+			<distributionManagement>
+				<site>
+					<id>repository</id>
+					<url>file:///E:/repository/source/git/org/cyk/maven/org.cyk.maven.site</url>
+				</site>
+			</distributionManagement>
+		</profile>
+	</profiles>
+	
+	<repositories>
+		<repository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

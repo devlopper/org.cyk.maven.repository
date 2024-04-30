@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-client-web-quarkus-primefaces</artifactId>
+		<version>1.0.3</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.file.client</groupId>
+    <artifactId>file-client-quarkus-primefaces</artifactId>
+	<version>1.0.3</version>
+	
+	<name>Client du module de fichier basé sur Quarkus et Primefaces</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/file-client-quarkus-primefaces.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/file-client-quarkus-primefaces.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/file-client-quarkus-primefaces.git</developerConnection>
+        <tag>1.0.3</tag>
+    </scm>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.system.file.server</groupId>
+			<artifactId>file-server-api</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.primefaces</groupId>
+			<artifactId>quarkus-primefaces-security-extension</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.file.client</groupId>
+			<artifactId>file-client-primefaces-extension</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
+	      <groupId>io.quarkus</groupId>
+	      <artifactId>quarkus-websockets</artifactId>
+	    </dependency>
+	</dependencies>
+		
+	<repositories>
+		<repository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

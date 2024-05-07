@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.processing.server</groupId>
   <artifactId>processing-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240507175814</lastUpdated>
+    <lastUpdated>20240507211153</lastUpdated>
     <snapshot>
-      <timestamp>20240507.175814</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20240507.211153</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240507.175814-2</value>
-        <updated>20240507175814</updated>
+        <value>1.0.4-20240507.211153-3</value>
+        <updated>20240507211153</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240507.175814-2</value>
-        <updated>20240507175814</updated>
+        <value>1.0.4-20240507.211153-3</value>
+        <updated>20240507211153</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

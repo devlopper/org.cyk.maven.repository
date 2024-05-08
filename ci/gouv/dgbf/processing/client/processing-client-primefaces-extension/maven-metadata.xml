@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.processing.client</groupId>
+  <artifactId>processing-client-primefaces-extension</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240508210053</lastUpdated>
+  </versioning>
+</metadata>

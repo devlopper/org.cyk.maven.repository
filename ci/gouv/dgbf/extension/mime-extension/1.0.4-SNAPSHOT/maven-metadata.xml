@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension</groupId>
   <artifactId>mime-extension</artifactId>
   <versioning>
-    <lastUpdated>20240508205847</lastUpdated>
+    <lastUpdated>20240510074404</lastUpdated>
     <snapshot>
-      <timestamp>20240508.205847</timestamp>
-      <buildNumber>10</buildNumber>
+      <timestamp>20240510.074404</timestamp>
+      <buildNumber>11</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240508.205847-10</value>
-        <updated>20240508205847</updated>
+        <value>1.0.4-20240510.074404-11</value>
+        <updated>20240510074404</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240508.205847-10</value>
-        <updated>20240508205847</updated>
+        <value>1.0.4-20240510.074404-11</value>
+        <updated>20240510074404</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-server-quarkus-oracle-extended</artifactId>
   <versioning>
-    <lastUpdated>20240510074300</lastUpdated>
+    <lastUpdated>20240513093307</lastUpdated>
     <snapshot>
-      <timestamp>20240510.074300</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20240513.093307</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240510.074300-11</value>
-        <updated>20240510074300</updated>
+        <value>1.0.4-20240513.093307-12</value>
+        <updated>20240513093307</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

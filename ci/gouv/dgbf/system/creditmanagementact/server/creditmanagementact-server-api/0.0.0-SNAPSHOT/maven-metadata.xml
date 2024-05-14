@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.creditmanagementact.server</groupId>
   <artifactId>creditmanagementact-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240514133509</lastUpdated>
+    <lastUpdated>20240514142828</lastUpdated>
     <snapshot>
-      <timestamp>20240514.133509</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20240514.142828</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240514.133509-1</value>
-        <updated>20240514133509</updated>
+        <value>0.0.0-20240514.142828-2</value>
+        <updated>20240514142828</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240514.133509-1</value>
-        <updated>20240514133509</updated>
+        <value>0.0.0-20240514.142828-2</value>
+        <updated>20240514142828</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20240514.133509-1</value>
-        <updated>20240514133509</updated>
+        <value>0.0.0-20240514.142828-2</value>
+        <updated>20240514142828</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

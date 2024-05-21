@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.system.localauthority.server</groupId>
+  <artifactId>localauthority-server-api</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240521153240</lastUpdated>
+  </versioning>
+</metadata>

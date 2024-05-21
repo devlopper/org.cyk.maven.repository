@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.system.localauthority.server</groupId>
+  <artifactId>localauthority-server-api</artifactId>
+  <versioning>
+    <lastUpdated>20240521153240</lastUpdated>
+    <snapshot>
+      <timestamp>20240521.153240</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.0-20240521.153240-1</value>
+        <updated>20240521153240</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.0-20240521.153240-1</value>
+        <updated>20240521153240</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.0-SNAPSHOT</version>
+</metadata>

@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-core</artifactId>
   <versioning>
-    <lastUpdated>20240522085913</lastUpdated>
+    <lastUpdated>20240522183953</lastUpdated>
     <snapshot>
-      <timestamp>20240522.085913</timestamp>
-      <buildNumber>15</buildNumber>
+      <timestamp>20240522.183953</timestamp>
+      <buildNumber>16</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240522.085913-15</value>
-        <updated>20240522085913</updated>
+        <value>1.0.4-20240522.183953-16</value>
+        <updated>20240522183953</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

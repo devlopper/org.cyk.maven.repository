@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.mailer.client</groupId>
   <artifactId>mailer-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20240522090257</lastUpdated>
+    <lastUpdated>20240522184341</lastUpdated>
     <snapshot>
-      <timestamp>20240522.090257</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20240522.184341</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240522.090257-9</value>
-        <updated>20240522090257</updated>
+        <value>1.0.4-20240522.184341-10</value>
+        <updated>20240522184341</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240522.090257-9</value>
-        <updated>20240522090257</updated>
+        <value>1.0.4-20240522.184341-10</value>
+        <updated>20240522184341</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

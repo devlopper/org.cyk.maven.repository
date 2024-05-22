@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.identity.client</groupId>
   <artifactId>identity-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20240522090341</lastUpdated>
+    <lastUpdated>20240522184437</lastUpdated>
     <snapshot>
-      <timestamp>20240522.090341</timestamp>
-      <buildNumber>5</buildNumber>
+      <timestamp>20240522.184437</timestamp>
+      <buildNumber>6</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240522.090341-5</value>
-        <updated>20240522090341</updated>
+        <value>1.0.4-20240522.184437-6</value>
+        <updated>20240522184437</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240522.090341-5</value>
-        <updated>20240522090341</updated>
+        <value>1.0.4-20240522.184437-6</value>
+        <updated>20240522184437</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

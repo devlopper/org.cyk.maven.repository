@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.system.poulsscolaire.server</groupId>
+  <artifactId>poulsscolaire-server-api</artifactId>
+  <versioning>
+    <lastUpdated>20240525165947</lastUpdated>
+    <snapshot>
+      <timestamp>20240525.165947</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.0-20240525.165947-1</value>
+        <updated>20240525165947</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.0-20240525.165947-1</value>
+        <updated>20240525165947</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.0-SNAPSHOT</version>
+</metadata>

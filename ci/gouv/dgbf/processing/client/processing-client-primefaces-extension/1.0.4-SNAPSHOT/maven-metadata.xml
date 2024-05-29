@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.processing.client</groupId>
   <artifactId>processing-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20240528090122</lastUpdated>
+    <lastUpdated>20240529112315</lastUpdated>
     <snapshot>
-      <timestamp>20240528.090122</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20240529.112315</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240528.090122-11</value>
-        <updated>20240528090122</updated>
+        <value>1.0.4-20240529.112315-12</value>
+        <updated>20240529112315</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240528.090122-11</value>
-        <updated>20240528090122</updated>
+        <value>1.0.4-20240529.112315-12</value>
+        <updated>20240529112315</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

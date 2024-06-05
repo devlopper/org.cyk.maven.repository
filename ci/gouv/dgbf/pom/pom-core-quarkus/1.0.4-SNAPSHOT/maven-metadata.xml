@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-core-quarkus</artifactId>
   <versioning>
-    <lastUpdated>20240529111732</lastUpdated>
+    <lastUpdated>20240605141217</lastUpdated>
     <snapshot>
-      <timestamp>20240529.111732</timestamp>
-      <buildNumber>19</buildNumber>
+      <timestamp>20240605.141217</timestamp>
+      <buildNumber>20</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240529.111732-19</value>
-        <updated>20240529111732</updated>
+        <value>1.0.4-20240605.141217-20</value>
+        <updated>20240605141217</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

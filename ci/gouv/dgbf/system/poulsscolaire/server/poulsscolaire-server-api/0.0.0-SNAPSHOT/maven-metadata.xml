@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.poulsscolaire.server</groupId>
   <artifactId>poulsscolaire-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240607162517</lastUpdated>
+    <lastUpdated>20240610100201</lastUpdated>
     <snapshot>
-      <timestamp>20240607.162517</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20240610.100201</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240607.162517-6</value>
-        <updated>20240607162517</updated>
+        <value>0.0.0-20240610.100201-7</value>
+        <updated>20240610100201</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240607.162517-6</value>
-        <updated>20240607162517</updated>
+        <value>0.0.0-20240610.100201-7</value>
+        <updated>20240610100201</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

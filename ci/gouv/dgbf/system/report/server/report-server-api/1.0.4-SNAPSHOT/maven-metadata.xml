@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.report.server</groupId>
   <artifactId>report-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240610100146</lastUpdated>
+    <lastUpdated>20240618075230</lastUpdated>
     <snapshot>
-      <timestamp>20240610.100146</timestamp>
-      <buildNumber>20</buildNumber>
+      <timestamp>20240618.075230</timestamp>
+      <buildNumber>21</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240610.100146-20</value>
-        <updated>20240610100146</updated>
+        <value>1.0.4-20240618.075230-21</value>
+        <updated>20240618075230</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240610.100146-20</value>
-        <updated>20240610100146</updated>
+        <value>1.0.4-20240618.075230-21</value>
+        <updated>20240618075230</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

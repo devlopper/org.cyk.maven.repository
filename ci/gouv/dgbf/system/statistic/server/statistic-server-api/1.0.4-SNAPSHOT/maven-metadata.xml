@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.system.statistic.server</groupId>
   <artifactId>statistic-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240618075236</lastUpdated>
+    <lastUpdated>20240619152353</lastUpdated>
     <snapshot>
-      <timestamp>20240618.075236</timestamp>
-      <buildNumber>21</buildNumber>
+      <timestamp>20240619.152353</timestamp>
+      <buildNumber>22</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240618.075236-21</value>
-        <updated>20240618075236</updated>
+        <value>1.0.4-20240619.152353-22</value>
+        <updated>20240619152353</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240618.075236-21</value>
-        <updated>20240618075236</updated>
+        <value>1.0.4-20240619.152353-22</value>
+        <updated>20240619152353</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

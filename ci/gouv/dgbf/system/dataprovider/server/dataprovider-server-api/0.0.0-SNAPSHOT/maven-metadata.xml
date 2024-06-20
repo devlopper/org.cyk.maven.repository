@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.dataprovider.server</groupId>
   <artifactId>dataprovider-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240619152246</lastUpdated>
+    <lastUpdated>20240620124115</lastUpdated>
     <snapshot>
-      <timestamp>20240619.152246</timestamp>
-      <buildNumber>12</buildNumber>
+      <timestamp>20240620.124115</timestamp>
+      <buildNumber>13</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240619.152246-12</value>
-        <updated>20240619152246</updated>
+        <value>0.0.0-20240620.124115-13</value>
+        <updated>20240620124115</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240619.152246-12</value>
-        <updated>20240619152246</updated>
+        <value>0.0.0-20240620.124115-13</value>
+        <updated>20240620124115</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20240619.152246-12</value>
-        <updated>20240619152246</updated>
+        <value>0.0.0-20240620.124115-13</value>
+        <updated>20240620124115</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

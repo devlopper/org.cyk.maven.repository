@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.budgetaryclassification.server</groupId>
   <artifactId>budgetaryclassification-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240625085102</lastUpdated>
+    <lastUpdated>20240625141735</lastUpdated>
     <snapshot>
-      <timestamp>20240625.085102</timestamp>
-      <buildNumber>23</buildNumber>
+      <timestamp>20240625.141735</timestamp>
+      <buildNumber>24</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240625.085102-23</value>
-        <updated>20240625085102</updated>
+        <value>0.0.0-20240625.141735-24</value>
+        <updated>20240625141735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240625.085102-23</value>
-        <updated>20240625085102</updated>
+        <value>0.0.0-20240625.141735-24</value>
+        <updated>20240625141735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20240625.085102-23</value>
-        <updated>20240625085102</updated>
+        <value>0.0.0-20240625.141735-24</value>
+        <updated>20240625141735</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

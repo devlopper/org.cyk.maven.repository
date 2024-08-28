@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.4-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.identity.client</groupId>
+	<artifactId>identity-client-primefaces-extension</artifactId>
+	<packaging>jar</packaging>
+	
+	<name>Extension du client du module d'identité</name>
+	
+	<scm>
+        <url>http://10.3.4.18:3001/christian/identity-client-primefaces-extension.git</url>
+        <connection>scm:git:http://10.3.4.18:3001/christian/identity-client-primefaces-extension.git</connection>
+        <developerConnection>scm:git:http://10.3.4.18:3001/christian/identity-client-primefaces-extension.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<properties>
+		<ci.gouv.dgbf.extension.version>1.0.4-SNAPSHOT</ci.gouv.dgbf.extension.version>	
+		<ci.gouv.dgbf.extension.test-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.test-extension.version>
+		<ci.gouv.dgbf.system.identity.server.identity-server-api.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.system.identity.server.identity-server-api.version>
+		<ci.gouv.dgbf.budgetaryclassification.client.budgetaryclassification-client-primefaces-extension.version>0.0.0-SNAPSHOT</ci.gouv.dgbf.budgetaryclassification.client.budgetaryclassification-client-primefaces-extension.version>
+		<ci.gouv.dgbf.extension.client.primefaces-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.client.primefaces-extension.version>
+		<org.primefaces.primefaces.version>12.0.0</org.primefaces.primefaces.version>
+		<org.omnifaces.omnifaces.version>4.1</org.omnifaces.omnifaces.version>
+		
+		<org.mapstruct.mapstruct.version>1.5.5.Final</org.mapstruct.mapstruct.version>
+		<org.mapstruct.mapstruct-processor.version>${org.mapstruct.mapstruct.version}</org.mapstruct.mapstruct-processor.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.system.identity.server</groupId>
+			<artifactId>identity-server-api</artifactId>
+			<version>${ci.gouv.dgbf.system.identity.server.identity-server-api.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.budgetaryclassification.client</groupId>
+			<artifactId>budgetaryclassification-client-primefaces-extension</artifactId>
+			<version>${ci.gouv.dgbf.budgetaryclassification.client.budgetaryclassification-client-primefaces-extension.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.client</groupId>
+			<artifactId>primefaces-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.client.primefaces-extension.version}</version>
+		</dependency>
+								
+		<dependency>
+		    <groupId>org.eclipse.microprofile.config</groupId>
+		    <artifactId>microprofile-config-api</artifactId>
+		    <version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.eclipse.microprofile.rest.client</groupId>
+		    <artifactId>microprofile-rest-client-api</artifactId>
+		    <version>3.0.1</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.primefaces</groupId>
+		    <artifactId>primefaces</artifactId>
+		    <version>${org.primefaces.primefaces.version}</version>
+		    <classifier>jakarta</classifier>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.omnifaces</groupId>
+			<artifactId>omnifaces</artifactId>
+			<version>${org.omnifaces.omnifaces.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+	        <groupId>org.mapstruct</groupId>
+	        <artifactId>mapstruct</artifactId>
+	        <version>${org.mapstruct.mapstruct-processor.version}</version>
+	        <scope>provided</scope>
+	    </dependency>
+		
+		<!-- Test -->		
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.test-extension.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

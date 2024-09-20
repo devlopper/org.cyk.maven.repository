@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.sharing.server</groupId>
   <artifactId>sharing-server-api</artifactId>
   <versioning>
-    <lastUpdated>20240920100038</lastUpdated>
+    <lastUpdated>20240920184945</lastUpdated>
     <snapshot>
-      <timestamp>20240920.100038</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20240920.184945</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240920.100038-2</value>
-        <updated>20240920100038</updated>
+        <value>0.0.0-20240920.184945-3</value>
+        <updated>20240920184945</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240920.100038-2</value>
-        <updated>20240920100038</updated>
+        <value>0.0.0-20240920.184945-3</value>
+        <updated>20240920184945</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20240920.100038-2</value>
-        <updated>20240920100038</updated>
+        <value>0.0.0-20240920.184945-3</value>
+        <updated>20240920184945</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

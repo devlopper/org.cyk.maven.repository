@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension.server</groupId>
   <artifactId>server-persistence-extension</artifactId>
   <versioning>
-    <lastUpdated>20240920151348</lastUpdated>
+    <lastUpdated>20240924111813</lastUpdated>
     <snapshot>
-      <timestamp>20240920.151348</timestamp>
-      <buildNumber>60</buildNumber>
+      <timestamp>20240924.111813</timestamp>
+      <buildNumber>61</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20240920.151348-60</value>
-        <updated>20240920151348</updated>
+        <value>1.0.4-20240924.111813-61</value>
+        <updated>20240924111813</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20240920.151348-60</value>
-        <updated>20240920151348</updated>
+        <value>1.0.4-20240924.111813-61</value>
+        <updated>20240924111813</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

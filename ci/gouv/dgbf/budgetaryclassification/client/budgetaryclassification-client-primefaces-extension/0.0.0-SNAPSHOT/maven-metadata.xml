@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.budgetaryclassification.client</groupId>
   <artifactId>budgetaryclassification-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20240925105123</lastUpdated>
+    <lastUpdated>20240926093003</lastUpdated>
     <snapshot>
-      <timestamp>20240925.105123</timestamp>
-      <buildNumber>10</buildNumber>
+      <timestamp>20240926.093003</timestamp>
+      <buildNumber>11</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20240925.105123-10</value>
-        <updated>20240925105123</updated>
+        <value>0.0.0-20240926.093003-11</value>
+        <updated>20240926093003</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20240925.105123-10</value>
-        <updated>20240925105123</updated>
+        <value>0.0.0-20240926.093003-11</value>
+        <updated>20240926093003</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

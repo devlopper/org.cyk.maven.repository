@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.4-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.extension.client</groupId>
+	<artifactId>primefaces-test-extension</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.0-SNAPSHOT</version>
+	
+	<name>Primefaces test extension based on jakarta</name>
+	
+	<scm>
+        <url>https://git.dgbf.ci/christian/primefaces-test-extension.git</url>
+        <connection>scm:git:https://git.dgbf.ci/christian/primefaces-test-extension.git</connection>
+        <developerConnection>scm:git:https://git.dgbf.ci/christian/primefaces-test-extension.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+	
+	<properties>
+		<ci.gouv.dgbf.extension.version>1.0.4-SNAPSHOT</ci.gouv.dgbf.extension.version>
+		<ci.gouv.dgbf.extension.client.primefaces-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.client.primefaces-extension.version>
+		<ci.gouv.dgbf.extension.test-extension.version>${ci.gouv.dgbf.extension.version}</ci.gouv.dgbf.extension.test-extension.version>
+		<org.primefaces.primefaces.version>13.0.0</org.primefaces.primefaces.version>
+		<org.omnifaces.omnifaces.version>4.2</org.omnifaces.omnifaces.version>
+	</properties>
+		
+	<dependencies>
+		<dependency>
+		    <groupId>org.eclipse.microprofile.config</groupId>
+		    <artifactId>microprofile-config-api</artifactId>
+		    <version>${org.eclipse.microprofile.config.microprofile-config-api.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>${org.primefaces.primefaces.version}</version>
+			<scope>provided</scope>
+			<classifier>jakarta</classifier>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.omnifaces</groupId>
+			<artifactId>omnifaces</artifactId>
+			<scope>provided</scope>
+			<version>${org.omnifaces.omnifaces.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension.client</groupId>
+			<artifactId>primefaces-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.client.primefaces-extension.version}</version>
+		</dependency>
+				
+		<!-- Test -->
+		<dependency>
+			<groupId>ci.gouv.dgbf.extension</groupId>
+			<artifactId>test-extension</artifactId>
+			<version>${ci.gouv.dgbf.extension.test-extension.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ci.gouv.dgbf.system.payroll.server</groupId>
+  <artifactId>payroll-server-api</artifactId>
+  <versioning>
+    <lastUpdated>20250106131015</lastUpdated>
+    <snapshot>
+      <timestamp>20250106.131015</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.0-20250106.131015-1</value>
+        <updated>20250106131015</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.0-20250106.131015-1</value>
+        <updated>20250106131015</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.0-20250106.131015-1</value>
+        <updated>20250106131015</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.0-SNAPSHOT</version>
+</metadata>

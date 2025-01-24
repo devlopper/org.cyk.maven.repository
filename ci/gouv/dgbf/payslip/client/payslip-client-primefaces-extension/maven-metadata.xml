@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ci.gouv.dgbf.payslip.client</groupId>
+  <artifactId>payslip-client-primefaces-extension</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250124205828</lastUpdated>
+  </versioning>
+</metadata>

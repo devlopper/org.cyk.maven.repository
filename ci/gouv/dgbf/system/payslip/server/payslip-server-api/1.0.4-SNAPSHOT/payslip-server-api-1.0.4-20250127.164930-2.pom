@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-server-api-jakarta</artifactId>
+		<version>1.0.4-SNAPSHOT</version>
+	</parent>
+	
+	<groupId>ci.gouv.dgbf.system.payslip.server</groupId>
+	<artifactId>payslip-server-api</artifactId>
+	<packaging>jar</packaging>
+	
+	<name>API du serveur du module de bulletin de salaire</name>
+	
+	<scm>
+        <url>https://git.dgbf.ci/christian/payslip-server-api.git</url>
+        <connection>scm:git:https://git.dgbf.ci/christian/payslip-server-api.git</connection>
+        <developerConnection>scm:git:https://git.dgbf.ci/christian/payslip-server-api.git</developerConnection>
+        <tag>${project.version}</tag>
+    </scm>
+    
+    <repositories>
+		<repository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>dgbf.repository</id>
+			<url>https://github.com/devlopper/org.cyk.maven.repository/raw/main/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

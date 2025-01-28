@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.scripting.server</groupId>
   <artifactId>scripting-server-api</artifactId>
   <versioning>
-    <lastUpdated>20250128084508</lastUpdated>
+    <lastUpdated>20250128084828</lastUpdated>
     <snapshot>
-      <timestamp>20250128.084508</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20250128.084828</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20250128.084508-6</value>
-        <updated>20250128084508</updated>
+        <value>0.0.0-20250128.084828-7</value>
+        <updated>20250128084828</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20250128.084508-6</value>
-        <updated>20250128084508</updated>
+        <value>0.0.0-20250128.084828-7</value>
+        <updated>20250128084828</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20250128.084508-6</value>
-        <updated>20250128084508</updated>
+        <value>0.0.0-20250128.084828-7</value>
+        <updated>20250128084828</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

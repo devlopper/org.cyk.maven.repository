@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension.client</groupId>
   <artifactId>report-viewer-extension-jee</artifactId>
   <versioning>
-    <lastUpdated>20230404151723</lastUpdated>
+    <lastUpdated>20250213112208</lastUpdated>
     <snapshot>
-      <timestamp>20230404.151723</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20250213.112208</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230404.151723-3</value>
-        <updated>20230404151723</updated>
+        <value>1.0.0-20250213.112208-4</value>
+        <updated>20250213112208</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230404.151723-3</value>
-        <updated>20230404151723</updated>
+        <value>1.0.0-20250213.112208-4</value>
+        <updated>20250213112208</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

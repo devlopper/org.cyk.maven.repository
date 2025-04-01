@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.ceadp.server</groupId>
   <artifactId>ceadp-server-api</artifactId>
   <versioning>
-    <lastUpdated>20250401103604</lastUpdated>
+    <lastUpdated>20250401203646</lastUpdated>
     <snapshot>
-      <timestamp>20250401.103604</timestamp>
-      <buildNumber>137</buildNumber>
+      <timestamp>20250401.203646</timestamp>
+      <buildNumber>138</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20250401.103604-137</value>
-        <updated>20250401103604</updated>
+        <value>0.0.0-20250401.203646-138</value>
+        <updated>20250401203646</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20250401.103604-137</value>
-        <updated>20250401103604</updated>
+        <value>0.0.0-20250401.203646-138</value>
+        <updated>20250401203646</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20250401.103604-137</value>
-        <updated>20250401103604</updated>
+        <value>0.0.0-20250401.203646-138</value>
+        <updated>20250401203646</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

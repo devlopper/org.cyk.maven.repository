@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.functionary.server</groupId>
   <artifactId>functionary-server-api</artifactId>
   <versioning>
-    <lastUpdated>20250430165833</lastUpdated>
+    <lastUpdated>20250430194843</lastUpdated>
     <snapshot>
-      <timestamp>20250430.165833</timestamp>
-      <buildNumber>29</buildNumber>
+      <timestamp>20250430.194843</timestamp>
+      <buildNumber>30</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20250430.165833-29</value>
-        <updated>20250430165833</updated>
+        <value>1.0.4-20250430.194843-30</value>
+        <updated>20250430194843</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20250430.165833-29</value>
-        <updated>20250430165833</updated>
+        <value>1.0.4-20250430.194843-30</value>
+        <updated>20250430194843</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.4-20250430.165833-29</value>
-        <updated>20250430165833</updated>
+        <value>1.0.4-20250430.194843-30</value>
+        <updated>20250430194843</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

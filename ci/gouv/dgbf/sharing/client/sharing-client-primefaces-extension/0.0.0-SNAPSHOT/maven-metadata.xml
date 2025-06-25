@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.sharing.client</groupId>
   <artifactId>sharing-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20250623183145</lastUpdated>
+    <lastUpdated>20250625160549</lastUpdated>
     <snapshot>
-      <timestamp>20250623.183145</timestamp>
-      <buildNumber>26</buildNumber>
+      <timestamp>20250625.160549</timestamp>
+      <buildNumber>27</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20250623.183145-26</value>
-        <updated>20250623183145</updated>
+        <value>0.0.0-20250625.160549-27</value>
+        <updated>20250625160549</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20250623.183145-26</value>
-        <updated>20250623183145</updated>
+        <value>0.0.0-20250625.160549-27</value>
+        <updated>20250625160549</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20250623.183145-26</value>
-        <updated>20250623183145</updated>
+        <value>0.0.0-20250625.160549-27</value>
+        <updated>20250625160549</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

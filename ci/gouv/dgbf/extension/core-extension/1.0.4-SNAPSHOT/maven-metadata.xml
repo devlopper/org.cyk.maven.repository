@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension</groupId>
   <artifactId>core-extension</artifactId>
   <versioning>
-    <lastUpdated>20250623122742</lastUpdated>
+    <lastUpdated>20250626170903</lastUpdated>
     <snapshot>
-      <timestamp>20250623.122742</timestamp>
-      <buildNumber>133</buildNumber>
+      <timestamp>20250626.170903</timestamp>
+      <buildNumber>134</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20250623.122742-133</value>
-        <updated>20250623122742</updated>
+        <value>1.0.4-20250626.170903-134</value>
+        <updated>20250626170903</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20250623.122742-133</value>
-        <updated>20250623122742</updated>
+        <value>1.0.4-20250626.170903-134</value>
+        <updated>20250626170903</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

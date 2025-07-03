@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.payroll.client</groupId>
   <artifactId>payroll-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20250523092106</lastUpdated>
+    <lastUpdated>20250703132604</lastUpdated>
     <snapshot>
-      <timestamp>20250523.092106</timestamp>
-      <buildNumber>9</buildNumber>
+      <timestamp>20250703.132604</timestamp>
+      <buildNumber>10</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20250523.092106-9</value>
-        <updated>20250523092106</updated>
+        <value>0.0.0-20250703.132604-10</value>
+        <updated>20250703132604</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20250523.092106-9</value>
-        <updated>20250523092106</updated>
+        <value>0.0.0-20250703.132604-10</value>
+        <updated>20250703132604</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20250523.092106-9</value>
-        <updated>20250523092106</updated>
+        <value>0.0.0-20250703.132604-10</value>
+        <updated>20250703132604</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

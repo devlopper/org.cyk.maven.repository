@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.logging.server</groupId>
   <artifactId>logging-server-api</artifactId>
   <versioning>
-    <lastUpdated>20250715192016</lastUpdated>
+    <lastUpdated>20250715194711</lastUpdated>
     <snapshot>
-      <timestamp>20250715.192016</timestamp>
-      <buildNumber>33</buildNumber>
+      <timestamp>20250715.194711</timestamp>
+      <buildNumber>34</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20250715.192016-33</value>
-        <updated>20250715192016</updated>
+        <value>1.0.4-20250715.194711-34</value>
+        <updated>20250715194711</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20250715.192016-33</value>
-        <updated>20250715192016</updated>
+        <value>1.0.4-20250715.194711-34</value>
+        <updated>20250715194711</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.4-20250715.192016-33</value>
-        <updated>20250715192016</updated>
+        <value>1.0.4-20250715.194711-34</value>
+        <updated>20250715194711</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

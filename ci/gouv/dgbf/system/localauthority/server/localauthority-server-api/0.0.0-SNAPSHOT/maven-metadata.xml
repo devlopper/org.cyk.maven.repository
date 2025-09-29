@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.localauthority.server</groupId>
   <artifactId>localauthority-server-api</artifactId>
   <versioning>
-    <lastUpdated>20250929104034</lastUpdated>
+    <lastUpdated>20250929112803</lastUpdated>
     <snapshot>
-      <timestamp>20250929.104034</timestamp>
-      <buildNumber>184</buildNumber>
+      <timestamp>20250929.112803</timestamp>
+      <buildNumber>185</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20250929.104034-184</value>
-        <updated>20250929104034</updated>
+        <value>0.0.0-20250929.112803-185</value>
+        <updated>20250929112803</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20250929.104034-184</value>
-        <updated>20250929104034</updated>
+        <value>0.0.0-20250929.112803-185</value>
+        <updated>20250929112803</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20250929.104034-184</value>
-        <updated>20250929104034</updated>
+        <value>0.0.0-20250929.112803-185</value>
+        <updated>20250929112803</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

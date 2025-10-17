@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.user.server</groupId>
   <artifactId>user-server-api</artifactId>
   <versioning>
-    <lastUpdated>20251008145218</lastUpdated>
+    <lastUpdated>20251017151804</lastUpdated>
     <snapshot>
-      <timestamp>20251008.145218</timestamp>
-      <buildNumber>38</buildNumber>
+      <timestamp>20251017.151804</timestamp>
+      <buildNumber>39</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20251008.145218-38</value>
-        <updated>20251008145218</updated>
+        <value>0.0.0-20251017.151804-39</value>
+        <updated>20251017151804</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20251008.145218-38</value>
-        <updated>20251008145218</updated>
+        <value>0.0.0-20251017.151804-39</value>
+        <updated>20251017151804</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20251008.145218-38</value>
-        <updated>20251008145218</updated>
+        <value>0.0.0-20251017.151804-39</value>
+        <updated>20251017151804</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

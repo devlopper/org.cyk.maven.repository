@@ -3,21 +3,21 @@
   <groupId>ci.gouv.dgbf.extension.server</groupId>
   <artifactId>server-business-extension</artifactId>
   <versioning>
-    <lastUpdated>20251022135449</lastUpdated>
+    <lastUpdated>20251022135558</lastUpdated>
     <snapshot>
-      <timestamp>20251022.135449</timestamp>
-      <buildNumber>103</buildNumber>
+      <timestamp>20251022.135558</timestamp>
+      <buildNumber>104</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20251022.135449-103</value>
-        <updated>20251022135449</updated>
+        <value>1.0.4-20251022.135558-104</value>
+        <updated>20251022135558</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20251022.135449-103</value>
-        <updated>20251022135449</updated>
+        <value>1.0.4-20251022.135558-104</value>
+        <updated>20251022135558</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

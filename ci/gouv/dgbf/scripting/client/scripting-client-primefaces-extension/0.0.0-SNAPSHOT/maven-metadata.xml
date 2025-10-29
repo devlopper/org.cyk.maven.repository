@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.scripting.client</groupId>
   <artifactId>scripting-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20251029130432</lastUpdated>
+    <lastUpdated>20251029162955</lastUpdated>
     <snapshot>
-      <timestamp>20251029.130432</timestamp>
-      <buildNumber>13</buildNumber>
+      <timestamp>20251029.162955</timestamp>
+      <buildNumber>14</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20251029.130432-13</value>
-        <updated>20251029130432</updated>
+        <value>0.0.0-20251029.162955-14</value>
+        <updated>20251029162955</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20251029.130432-13</value>
-        <updated>20251029130432</updated>
+        <value>0.0.0-20251029.162955-14</value>
+        <updated>20251029162955</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20251029.130432-13</value>
-        <updated>20251029130432</updated>
+        <value>0.0.0-20251029.162955-14</value>
+        <updated>20251029162955</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.payroll.server</groupId>
   <artifactId>payroll-server-api</artifactId>
   <versioning>
-    <lastUpdated>20251204105933</lastUpdated>
+    <lastUpdated>20251205154014</lastUpdated>
     <snapshot>
-      <timestamp>20251204.105933</timestamp>
-      <buildNumber>231</buildNumber>
+      <timestamp>20251205.154014</timestamp>
+      <buildNumber>232</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20251204.105933-231</value>
-        <updated>20251204105933</updated>
+        <value>0.0.0-20251205.154014-232</value>
+        <updated>20251205154014</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20251204.105933-231</value>
-        <updated>20251204105933</updated>
+        <value>0.0.0-20251205.154014-232</value>
+        <updated>20251205154014</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20251204.105933-231</value>
-        <updated>20251204105933</updated>
+        <value>0.0.0-20251205.154014-232</value>
+        <updated>20251205154014</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

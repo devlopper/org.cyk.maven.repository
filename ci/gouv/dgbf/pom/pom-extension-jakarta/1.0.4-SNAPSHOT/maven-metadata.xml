@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-extension-jakarta</artifactId>
   <versioning>
-    <lastUpdated>20260126165209</lastUpdated>
+    <lastUpdated>20260209143158</lastUpdated>
     <snapshot>
-      <timestamp>20260126.165209</timestamp>
-      <buildNumber>38</buildNumber>
+      <timestamp>20260209.143158</timestamp>
+      <buildNumber>39</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20260126.165209-38</value>
-        <updated>20260126165209</updated>
+        <value>1.0.4-20260209.143158-39</value>
+        <updated>20260209143158</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

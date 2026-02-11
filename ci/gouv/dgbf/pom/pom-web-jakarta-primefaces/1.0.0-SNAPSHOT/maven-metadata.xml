@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.pom</groupId>
   <artifactId>pom-web-jakarta-primefaces</artifactId>
   <versioning>
-    <lastUpdated>20260209143204</lastUpdated>
+    <lastUpdated>20260211150318</lastUpdated>
     <snapshot>
-      <timestamp>20260209.143204</timestamp>
-      <buildNumber>83</buildNumber>
+      <timestamp>20260211.150318</timestamp>
+      <buildNumber>84</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20260209.143204-83</value>
-        <updated>20260209143204</updated>
+        <value>1.0.0-20260211.150318-84</value>
+        <updated>20260211150318</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

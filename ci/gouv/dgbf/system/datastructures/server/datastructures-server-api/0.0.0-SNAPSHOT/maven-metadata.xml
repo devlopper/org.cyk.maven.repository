@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.datastructures.server</groupId>
   <artifactId>datastructures-server-api</artifactId>
   <versioning>
-    <lastUpdated>20251204114617</lastUpdated>
+    <lastUpdated>20260327133324</lastUpdated>
     <snapshot>
-      <timestamp>20251204.114617</timestamp>
-      <buildNumber>49</buildNumber>
+      <timestamp>20260327.133324</timestamp>
+      <buildNumber>50</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20251204.114617-49</value>
-        <updated>20251204114617</updated>
+        <value>0.0.0-20260327.133324-50</value>
+        <updated>20260327133324</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20251204.114617-49</value>
-        <updated>20251204114617</updated>
+        <value>0.0.0-20260327.133324-50</value>
+        <updated>20260327133324</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20251204.114617-49</value>
-        <updated>20251204114617</updated>
+        <value>0.0.0-20260327.133324-50</value>
+        <updated>20260327133324</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

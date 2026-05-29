@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.budgetaryclassification.client</groupId>
   <artifactId>budgetaryclassification-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20260507091819</lastUpdated>
+    <lastUpdated>20260529093303</lastUpdated>
     <snapshot>
-      <timestamp>20260507.091819</timestamp>
-      <buildNumber>26</buildNumber>
+      <timestamp>20260529.093303</timestamp>
+      <buildNumber>27</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260507.091819-26</value>
-        <updated>20260507091819</updated>
+        <value>0.0.0-20260529.093303-27</value>
+        <updated>20260529093303</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260507.091819-26</value>
-        <updated>20260507091819</updated>
+        <value>0.0.0-20260529.093303-27</value>
+        <updated>20260529093303</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260507.091819-26</value>
-        <updated>20260507091819</updated>
+        <value>0.0.0-20260529.093303-27</value>
+        <updated>20260529093303</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

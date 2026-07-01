@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.ticket.client</groupId>
   <artifactId>ticket-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20260522143215</lastUpdated>
+    <lastUpdated>20260701163436</lastUpdated>
     <snapshot>
-      <timestamp>20260522.143215</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20260701.163436</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260522.143215-3</value>
-        <updated>20260522143215</updated>
+        <value>0.0.0-20260701.163436-4</value>
+        <updated>20260701163436</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260522.143215-3</value>
-        <updated>20260522143215</updated>
+        <value>0.0.0-20260701.163436-4</value>
+        <updated>20260701163436</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260522.143215-3</value>
-        <updated>20260522143215</updated>
+        <value>0.0.0-20260701.163436-4</value>
+        <updated>20260701163436</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

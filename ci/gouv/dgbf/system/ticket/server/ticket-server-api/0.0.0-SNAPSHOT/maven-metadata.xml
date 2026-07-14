@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.ticket.server</groupId>
   <artifactId>ticket-server-api</artifactId>
   <versioning>
-    <lastUpdated>20260714151159</lastUpdated>
+    <lastUpdated>20260714200447</lastUpdated>
     <snapshot>
-      <timestamp>20260714.151159</timestamp>
-      <buildNumber>46</buildNumber>
+      <timestamp>20260714.200447</timestamp>
+      <buildNumber>47</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260714.151159-46</value>
-        <updated>20260714151159</updated>
+        <value>0.0.0-20260714.200447-47</value>
+        <updated>20260714200447</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260714.151159-46</value>
-        <updated>20260714151159</updated>
+        <value>0.0.0-20260714.200447-47</value>
+        <updated>20260714200447</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260714.151159-46</value>
-        <updated>20260714151159</updated>
+        <value>0.0.0-20260714.200447-47</value>
+        <updated>20260714200447</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

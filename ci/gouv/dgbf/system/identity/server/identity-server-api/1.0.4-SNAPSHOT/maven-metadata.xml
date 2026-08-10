@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.identity.server</groupId>
   <artifactId>identity-server-api</artifactId>
   <versioning>
-    <lastUpdated>20260804183600</lastUpdated>
+    <lastUpdated>20260810100251</lastUpdated>
     <snapshot>
-      <timestamp>20260804.183600</timestamp>
-      <buildNumber>92</buildNumber>
+      <timestamp>20260810.100251</timestamp>
+      <buildNumber>93</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20260804.183600-92</value>
-        <updated>20260804183600</updated>
+        <value>1.0.4-20260810.100251-93</value>
+        <updated>20260810100251</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20260804.183600-92</value>
-        <updated>20260804183600</updated>
+        <value>1.0.4-20260810.100251-93</value>
+        <updated>20260810100251</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.4-20260804.183600-92</value>
-        <updated>20260804183600</updated>
+        <value>1.0.4-20260810.100251-93</value>
+        <updated>20260810100251</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

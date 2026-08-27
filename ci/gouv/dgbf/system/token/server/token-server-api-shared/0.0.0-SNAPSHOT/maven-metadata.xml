@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.token.server</groupId>
   <artifactId>token-server-api-shared</artifactId>
   <versioning>
-    <lastUpdated>20260827192640</lastUpdated>
+    <lastUpdated>20260827193126</lastUpdated>
     <snapshot>
-      <timestamp>20260827.192640</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20260827.193126</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260827.192640-2</value>
-        <updated>20260827192640</updated>
+        <value>0.0.0-20260827.193126-3</value>
+        <updated>20260827193126</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260827.192640-2</value>
-        <updated>20260827192640</updated>
+        <value>0.0.0-20260827.193126-3</value>
+        <updated>20260827193126</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260827.192640-2</value>
-        <updated>20260827192640</updated>
+        <value>0.0.0-20260827.193126-3</value>
+        <updated>20260827193126</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

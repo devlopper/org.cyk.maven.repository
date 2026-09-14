@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.token.client</groupId>
   <artifactId>token-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20260827195600</lastUpdated>
+    <lastUpdated>20260914183549</lastUpdated>
     <snapshot>
-      <timestamp>20260827.195600</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20260914.183549</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260827.195600-1</value>
-        <updated>20260827195600</updated>
+        <value>0.0.0-20260914.183549-2</value>
+        <updated>20260914183549</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260827.195600-1</value>
-        <updated>20260827195600</updated>
+        <value>0.0.0-20260914.183549-2</value>
+        <updated>20260914183549</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260827.195600-1</value>
-        <updated>20260827195600</updated>
+        <value>0.0.0-20260914.183549-2</value>
+        <updated>20260914183549</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-web-jakarta</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>pom-web-jakarta-primefaces</artifactId>
+	<packaging>pom</packaging>
+	
+	<name>Pom web basé sur jakarta utilisant primefaces</name>
+	
+	<properties>
+		<!-- Primefaces utility -->
+		<ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version>1.0.0-SNAPSHOT</ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>ci.gouv.dgbf.client.utility.primefaces</groupId>
+			<artifactId>utility-primefaces</artifactId>
+			<version>${ci.gouv.dgbf.client.utility.primefaces.utility-primefaces.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<profiles>
+		<profile>
+			<id>bootable-jar</id>
+			<properties>
+				<project.build.file.name>ROOT</project.build.file.name>
+				<wildfly.bootable.context.root>false</wildfly.bootable.context.root>
+				<propertiesFile>src/main/resources/bootablejar/properties.txt</propertiesFile>
+				<scriptsFile>src/main/resources/bootablejar/cli.txt</scriptsFile>
+			</properties>
+			<build>
+				<plugins>
+		            <plugin>
+		                <groupId>org.wildfly.plugins</groupId>
+		                <artifactId>wildfly-jar-maven-plugin</artifactId>
+		                <version>${org.wildfly.plugins.wildfly-jar-maven-plugin.version}</version>
+		                <configuration>
+		                	<feature-packs>
+		                		<feature-pack>
+		                			<location>wildfly@maven(org.jboss.universe:community-universe)#${wildfly.version}</location>
+		                		</feature-pack>
+		                	</feature-packs>
+		                	<layers>
+		                		<layer>jaxrs</layer>
+		                    	<layer>jsf</layer>
+		                    	<layer>management</layer>
+		                    </layers>
+		                    <excluded-layers>
+		                        <layer>deployment-scanner</layer>
+		                    </excluded-layers>
+		                    <plugin-options>
+		                    	<jboss-fork-embedded>true</jboss-fork-embedded>
+		                    </plugin-options>
+		                    <cloud>
+		                    	<type>kubernetes</type>
+		                    </cloud>
+		                    <cli-sessions>
+		                    	<cli-session>
+		                    		<propertiesFile>${propertiesFile}</propertiesFile>
+		                    		<scriptFiles>
+		                    			<scriptFile>${scriptsFile}</scriptFile>
+		                    		</scriptFiles>
+		                    	</cli-session>
+		                    </cli-sessions>
+		                </configuration>
+		                <executions>
+		                    <execution>
+		                        <goals>
+		                            <goal>package</goal>
+		                        </goals>
+		                    </execution>
+		                </executions>
+		            </plugin>
+		        </plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

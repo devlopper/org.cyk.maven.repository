@@ -3,16 +3,16 @@
   <groupId>ci.gouv.dgbf.extension.primefaces</groupId>
   <artifactId>quarkus-primefaces-security-extension-parent</artifactId>
   <versioning>
-    <lastUpdated>20261026080029</lastUpdated>
+    <lastUpdated>20261105074224</lastUpdated>
     <snapshot>
-      <timestamp>20261026.080029</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20261105.074224</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20261026.080029-2</value>
-        <updated>20261026080029</updated>
+        <value>1.0.0-20261105.074224-3</value>
+        <updated>20261105074224</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

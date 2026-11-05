@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.mailer.server</groupId>
   <artifactId>mailer-server-api</artifactId>
   <versioning>
-    <lastUpdated>20261015131316</lastUpdated>
+    <lastUpdated>20261105164153</lastUpdated>
     <snapshot>
-      <timestamp>20261015.131316</timestamp>
-      <buildNumber>33</buildNumber>
+      <timestamp>20261105.164153</timestamp>
+      <buildNumber>34</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.4-20261015.131316-33</value>
-        <updated>20261015131316</updated>
+        <value>1.0.4-20261105.164153-34</value>
+        <updated>20261105164153</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.4-20261015.131316-33</value>
-        <updated>20261015131316</updated>
+        <value>1.0.4-20261105.164153-34</value>
+        <updated>20261105164153</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.4-20261015.131316-33</value>
-        <updated>20261015131316</updated>
+        <value>1.0.4-20261105.164153-34</value>
+        <updated>20261105164153</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

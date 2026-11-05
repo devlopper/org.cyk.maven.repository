@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.datastructures.client</groupId>
   <artifactId>datastructures-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20260812102831</lastUpdated>
+    <lastUpdated>20261105082310</lastUpdated>
     <snapshot>
-      <timestamp>20260812.102831</timestamp>
-      <buildNumber>35</buildNumber>
+      <timestamp>20261105.082310</timestamp>
+      <buildNumber>36</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20260812.102831-35</value>
-        <updated>20260812102831</updated>
+        <value>0.0.0-20261105.082310-36</value>
+        <updated>20261105082310</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20260812.102831-35</value>
-        <updated>20260812102831</updated>
+        <value>0.0.0-20261105.082310-36</value>
+        <updated>20261105082310</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20260812.102831-35</value>
-        <updated>20260812102831</updated>
+        <value>0.0.0-20261105.082310-36</value>
+        <updated>20261105082310</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

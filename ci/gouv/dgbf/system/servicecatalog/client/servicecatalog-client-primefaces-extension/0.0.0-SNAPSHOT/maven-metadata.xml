@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.servicecatalog.client</groupId>
   <artifactId>servicecatalog-client-primefaces-extension</artifactId>
   <versioning>
-    <lastUpdated>20261118120258</lastUpdated>
+    <lastUpdated>20261118120720</lastUpdated>
     <snapshot>
-      <timestamp>20261118.120258</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20261118.120720</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20261118.120258-6</value>
-        <updated>20261118120258</updated>
+        <value>0.0.0-20261118.120720-7</value>
+        <updated>20261118120720</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20261118.120258-6</value>
-        <updated>20261118120258</updated>
+        <value>0.0.0-20261118.120720-7</value>
+        <updated>20261118120720</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20261118.120258-6</value>
-        <updated>20261118120258</updated>
+        <value>0.0.0-20261118.120720-7</value>
+        <updated>20261118120720</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ci.gouv.dgbf.pom</groupId>
+		<artifactId>pom-extension-jakarta</artifactId>
+		<version>1.0.4-SNAPSHOT</version>
+	</parent>
+
+	<groupId>ci.gouv.dgbf.extension.client</groupId>
+	<artifactId>primefaces-brand-default-extension</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Primefaces default brand extension (DGBF visual identity: tokens, fonts, component skin)</name>
+	<description>Static resources only (CSS and fonts), no Java and no dependency. Public contract: the semantic tokens of root.css.</description>
+
+	<scm>
+		<url>https://git.dgbf.ci/christian/primefaces-brand-default-extension.git</url>
+		<connection>scm:git:https://git.dgbf.ci/christian/primefaces-brand-default-extension.git</connection>
+		<developerConnection>scm:git:https://git.dgbf.ci/christian/primefaces-brand-default-extension.git</developerConnection>
+		<tag>${project.version}</tag>
+	</scm>
+</project>

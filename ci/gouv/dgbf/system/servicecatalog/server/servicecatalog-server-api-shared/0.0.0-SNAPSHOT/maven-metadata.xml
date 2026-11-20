@@ -3,27 +3,27 @@
   <groupId>ci.gouv.dgbf.system.servicecatalog.server</groupId>
   <artifactId>servicecatalog-server-api-shared</artifactId>
   <versioning>
-    <lastUpdated>20261120152057</lastUpdated>
+    <lastUpdated>20261120153908</lastUpdated>
     <snapshot>
-      <timestamp>20261120.152057</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20261120.153908</timestamp>
+      <buildNumber>5</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.0-20261120.152057-4</value>
-        <updated>20261120152057</updated>
+        <value>0.0.0-20261120.153908-5</value>
+        <updated>20261120153908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20261120.152057-4</value>
-        <updated>20261120152057</updated>
+        <value>0.0.0-20261120.153908-5</value>
+        <updated>20261120153908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.0-20261120.152057-4</value>
-        <updated>20261120152057</updated>
+        <value>0.0.0-20261120.153908-5</value>
+        <updated>20261120153908</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

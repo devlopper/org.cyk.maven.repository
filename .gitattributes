@@ -1,0 +1,3 @@
+# Dépôt Maven : fichiers servis octet pour octet, jamais de conversion des fins
+# de ligne (sinon les .sha1/.md5 ne correspondent plus aux fichiers).
+* -text
